@@ -21,13 +21,16 @@ class HomeController extends Controller
 
     //This function stores the input data register by the customer and push them on the database 
     public function store(Request $request){
-        Calendar::create([
-            'title' => $request->title , 
-            'start' => $request->start , 
-            'end' => $request->end , 
-            'description' => $request->description , 
-            'all_day' => $request->all_day , 
-        ]) ; 
+            Calendar::create([
+                'title' => $request->title , 
+                'start' => $request->start , 
+                'end' => $request->end , 
+                'description' => $request->description , 
+                'all_day' => $request->all_day , 
+                ]) ; 
+            
+        
+        return view('welcome') ; 
     }
 
     // This function returns the json data 
