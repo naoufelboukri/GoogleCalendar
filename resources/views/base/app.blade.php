@@ -23,7 +23,6 @@
               start : 'prev,next today',
               center : 'title',
               end : 'dayGridMonth,timeGridWeek' , 
-
           }
         });
         calendar.render();
