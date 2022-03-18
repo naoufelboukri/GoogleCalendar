@@ -1,0 +1,16 @@
+body {
+  background-color: #a8a8a8;
+}
+
+nav {
+  margin: 0 0 3rem 0;
+}
+
+#calendar {
+  height: 80vh;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}

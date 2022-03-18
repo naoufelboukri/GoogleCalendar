@@ -1,0 +1,21 @@
+$light-grey : #a8a8a8 ; 
+$min-margin : 1rem ; 
+$min-margin-tb : 1rem 0 1rem 0 ;  
+$min-margin-b : 0 0 3rem 0 ;  
+
+body{
+    background-color : $light-grey ; 
+}
+
+nav{
+    margin: $min-margin-b ;
+}
+
+#calendar{
+    height : 80vh ; 
+}
+
+a{
+    color : #000 ; 
+    text-decoration: none ;
+}
