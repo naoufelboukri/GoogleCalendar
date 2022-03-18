@@ -26,6 +26,7 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+        //Stocker dans la variable le bloc #calendar 
         var calendarEl = document.getElementById('calendar');
 
 

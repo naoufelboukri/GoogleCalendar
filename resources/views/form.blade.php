@@ -55,7 +55,7 @@
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="all_say" id="false" value="2">
+                        <input class="form-check-input" type="radio" name="all_day" id="false" value="2">
                         <label class="form-check-label" for="gridRadios2">
                             No
                         </label>

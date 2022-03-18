@@ -11,7 +11,6 @@ class HomeController extends Controller
     // This function return the principal view of the calendar 
     public function index(){
         return view('welcome') ; 
-        // ->format('Y-m-d H:i:s') 
     }
 
     //This function is used to create new events 
