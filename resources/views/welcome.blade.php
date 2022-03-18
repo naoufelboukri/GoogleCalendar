@@ -1,7 +1,10 @@
-@extends('base.app')
+@extends('layouts.app')
+
 
 @section('content')
-    <div id="calendar">
-         
+    <div class="container">
+        <div id="calendar">
+            
+        </div>
     </div>
 @endsection
