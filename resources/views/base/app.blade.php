@@ -19,6 +19,20 @@
           initialView: 'dayGridMonth',
           locale : 'fr', 
           timeZone : 'Europe/Paris',
+          eventSources:[
+            {
+                // Get the json output data from this path 
+              url : '/source',
+              backgroundColor : 'yellow',
+              textColor: 'black',
+              editable : true , 
+              eventResizableFromStart : true              
+            }, 
+            {
+              // Get my personal informations and synchronize them
+              googleCalendarId: 'naoufelboukri@gmail.com'
+            }
+          ] ,
           headerToolbar : {
               start : 'prev,next today',
               center : 'title',
